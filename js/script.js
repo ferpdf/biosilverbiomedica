@@ -1,16 +1,15 @@
-// Animación scroll suave
+document.querySelectorAll("a").forEach(link => {
 
-document.querySelectorAll("a[href^='#']").forEach(anchor => {
+link.addEventListener("mouseover", () => {
 
-anchor.addEventListener("click", function(e){
+link.style.opacity="0.7"
 
-e.preventDefault();
+})
 
-document.querySelector(this.getAttribute("href"))
-.scrollIntoView({
-behavior:"smooth"
-});
+link.addEventListener("mouseout", () => {
 
-});
+link.style.opacity="1"
 
-});
+})
+
+})
