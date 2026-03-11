@@ -1,22 +1,15 @@
-*{
-margin:0;
-padding:0;
-box-sizing:border-box;
-font-family:Poppins;
-}
-
 body{
-background:#f5f9fc;
-color:#333;
+
+font-family:Poppins;
+margin:0;
+background:#f4f9ff;
+
 }
 
 header{
 
 background:white;
-position:fixed;
-width:100%;
 box-shadow:0 2px 10px rgba(0,0,0,0.1);
-z-index:1000;
 
 }
 
@@ -39,25 +32,18 @@ nav a{
 
 margin:0 15px;
 text-decoration:none;
-color:#2c3e50;
-font-weight:500;
-
-}
-
-nav a:hover{
-
-color:#2fa4e7;
+color:#0d47a1;
 
 }
 
 .hero{
 
-height:100vh;
+height:90vh;
+
 background:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),
 url('../imagess/hero.jpg');
 
 background-size:cover;
-background-position:center;
 
 display:flex;
 align-items:center;
@@ -70,140 +56,56 @@ color:white;
 .hero h1{
 
 font-size:48px;
-margin-bottom:20px;
-
-}
-
-.hero p{
-
-max-width:700px;
-margin:auto;
-margin-bottom:30px;
 
 }
 
 .btn{
 
-background:#2fa4e7;
+background:#1e88e5;
 color:white;
-padding:14px 30px;
+padding:12px 25px;
 border-radius:30px;
 text-decoration:none;
-
-}
-
-.btn-outline{
-
-border:2px solid #2fa4e7;
-padding:14px 30px;
-border-radius:30px;
-color:white;
-text-decoration:none;
-
-}
-
-.servicios{
-
-padding:100px 50px;
-text-align:center;
 
 }
 
 .cards{
 
 display:flex;
+gap:20px;
 justify-content:center;
-gap:30px;
-margin-top:40px;
+padding:40px;
 
 }
 
 .card{
 
 background:white;
-padding:30px;
+padding:25px;
 border-radius:10px;
-box-shadow:0 5px 20px rgba(0,0,0,0.1);
-width:300px;
-transition:0.3s;
+box-shadow:0 4px 15px rgba(0,0,0,0.1);
 
 }
 
-.card:hover{
-
-transform:translateY(-10px);
-
-}
-
-.equipos{
-
-padding:80px;
-text-align:center;
-
-}
-
-.galeria{
-
-display:flex;
-gap:20px;
-justify-content:center;
-margin-top:30px;
-
-}
-
-.galeria img{
-
-width:300px;
-border-radius:10px;
-transition:0.3s;
-
-}
-
-.galeria img:hover{
-
-transform:scale(1.05);
-
-}
-
-.nosotros{
+.page{
 
 padding:100px 80px;
-text-align:center;
-background:white;
 
 }
 
-.contacto{
+.contact-grid{
 
-padding:80px;
-text-align:center;
-
-}
-
-.whatsapp-btn{
-
-background:#25D366;
-padding:15px 30px;
-border-radius:30px;
-color:white;
-text-decoration:none;
+display:flex;
+justify-content:center;
+gap:60px;
 
 }
 
-footer{
-
-background:#0b2c40;
-color:white;
-text-align:center;
-padding:20px;
-
-}
-
-.whatsapp-float{
+.whatsapp{
 
 position:fixed;
-bottom:25px;
-right:25px;
+bottom:20px;
+right:20px;
 background:#25D366;
 color:white;
 width:60px;
