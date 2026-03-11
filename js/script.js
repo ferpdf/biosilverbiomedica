@@ -1,12 +1,12 @@
-document.querySelectorAll("a").forEach(link => {
+document.querySelectorAll("a").forEach(link=>{
 
-link.addEventListener("mouseover", () => {
+link.addEventListener("mouseover",()=>{
 
-link.style.opacity="0.7"
+link.style.opacity="0.8"
 
 })
 
-link.addEventListener("mouseout", () => {
+link.addEventListener("mouseout",()=>{
 
 link.style.opacity="1"
 
